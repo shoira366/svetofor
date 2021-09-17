@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+}
+
+button {
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Arial';
+    text-transform: uppercase;
+}
+
+.keybox {
+    font-family: 'Arial';
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.keywords {
+    margin-bottom: 5px;
+}
+
+.big-box {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: cadetblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 110px;
+    width: 300px;
+    border: 1px solid #000;
+    margin-left: 400px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.first-box {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.second-box {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.third-box {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* .line{
+    width: 250px;
+    transform: rotate(90deg);
+    height: 15px;
+    background-color:powderblue;
+    margin-left: 425px;
+    margin-top: 117px;
+    border: none;
+} */
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.green {
+    background-color: green;
+}
+
+.text {
+    font-family: 'Arial';
+    width: 700px;
+    margin-top: 25px;
+    margin-left: 20px;
+    /* margin: 0 auto; */
+}
+
+.qizil {
+    color: red;
+}
+
+.sariq {
+    color: gold;
+}
+
+.yashil {
+    color: green;
+}
+
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .big-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .keybox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+}
